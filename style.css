@@ -31,6 +31,10 @@ section {
     gap: 1rem;
 }
 
+abbr {
+    text-decoration: none;
+}
+
 h2 {
     color: #331f19;
     font-size: 1.2rem;
@@ -41,7 +45,7 @@ input[type="radio"], input[type="checkbox"] {
 }
 
 input[type="text"], input[type="date"], input[type="email"], input[type="password"] {
-    width: 100%;
+    width: 97%;
     padding: 0.6rem;
     border: 4px solid #ccd595;
     outline: none;
@@ -60,6 +64,7 @@ select {
     border-radius: 5px;
     border: none;
     outline: none;
+    padding: 0.8rem;
 }
 
 img {
@@ -87,4 +92,66 @@ td {
 tfoot td {
     background-color: #331f19;
     color: #f4f0ea;
+}
+
+details {
+    background-color: #ccd595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+summary {
+    color: #331f19;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+ol {
+    margin: 2rem;
+}
+
+ol li {
+    padding: 0.5rem;
+}
+
+fieldset {
+    border: 2px solid #ccd595;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+legend {
+    color: #331f19;
+    padding: 0 0.5rem;
+}
+
+textarea {
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid #ccd595;
+}
+
+button {
+    background-color: #ccd595;
+    border: none;
+    padding: 0.2rem;
+    color: #331f19;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #331f19;
+    padding: 2rem;
+    text-align: center;
+}
+
+.paragrafo-footer {
+    color: #f4f0ea;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ccd595;
 }
